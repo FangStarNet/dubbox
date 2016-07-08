@@ -725,4 +725,23 @@
 			<timezone>+8</timezone>
 		</developer>
 	</developers>
+        
+        <distributionManagement>
+            <repository>
+                <id>fangstar-api</id>
+                <url>http://mvn.fx:8081/nexus/content/repositories/releases</url>
+            </repository>
+        </distributionManagement>
+
+        <repositories>
+            <repository>
+                <id>fangstar</id>
+                <url>http://mvn.fx:8081/nexus/content/repositories/central/</url>
+            </repository>
+
+            <repository>
+                <id>fangstar-api</id>
+                <url>http://mvn.fx:8081/nexus/content/repositories/releases/</url>
+            </repository>
+        </repositories>    
 </project>
